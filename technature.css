@@ -1,0 +1,46 @@
+body{
+    font-family: 'Ariel', sans-serif;
+}
+
+header{
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    padding: 1em;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero{
+    background: url('image') no-repeat center center;
+    background-size: cover;
+    padding: 5em 0;
+    text-align: center;
+    color: #333;
+}
+
+.blog article{
+    background: #f4f4f4;
+    margin: 1em;
+    padding:1em;
+    text-align: center;
+}
+
+footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
