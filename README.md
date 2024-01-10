@@ -9,3 +9,10 @@ I want the website to have a high tech feel to it. There will be animated transi
 
 The concept of Technature will further develop and evolve as the website is built. 
 
+Features: 
+
+- AI art showcase 
+- The ability to sign up and make an account 
+- Blog 
+- Contact Info
+- Merch Shop
