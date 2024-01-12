@@ -16,3 +16,5 @@ Features:
 - Blog 
 - Contact Info
 - Merch Shop
+
+- I eventually want to allow the users to upload their own AI Art to showcase what they've made
