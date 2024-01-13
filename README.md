@@ -18,3 +18,4 @@ Features:
 - Merch Shop
 
 - I eventually want to allow the users to upload their own AI Art to showcase what they've made
+- I'm going to make a 3-D model of a microchip to use for this project. 
