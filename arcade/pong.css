@@ -1,0 +1,35 @@
+#gameArea {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(17, 17, 17);
+    position: relative;
+    margin: 20px auto;
+}
+
+.paddle {
+    width: 10px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+}
+
+#paddle1 {
+    left: 0;
+}
+
+#paddle2 {
+    right: 0;
+}
+
+#ball {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(54, 226, 77);
+    position: absolute;
+    border-radius: 50%;
+}
+
+
+body {
+    background-color: rgb(104, 104, 104);
+}
