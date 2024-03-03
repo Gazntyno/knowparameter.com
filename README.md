@@ -1,5 +1,5 @@
 # technature.io
-The Website for Technature. 
+The Official Website for Technature. 
 This website will display The philosophy of technature and "thinking outside the sim"
 as well as be the place for people to buy technature merch. 
 
