@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Pong</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="pong.css">
-    </head>
-    <body>
-       <div id="gameArea">
-        <div id="paddle1" class="paddle"> </div>
-        <div id="paddle2" class="paddle"></div>
-        <div id="ball"></div>
-       </div>
-        
-        <script src="pong.js" async defer></script>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Pong</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="pong.css" />
+  </head>
+  <body>
+    <div id="gameArea">
+      <div id="pauseMenu" style="display: none">
+        Game Paused - Press P to Resume
+      </div>
+      <div id="paddle1" class="paddle"></div>
+      <div id="paddle2" class="paddle"></div>
+      <div id="ball"></div>
+      <div id="score1" class="score">0</div>
+      <div id="score2" class="score">0</div>
+    </div>
+
+    <script src="pong.js" async defer></script>
+  </body>
 </html>
