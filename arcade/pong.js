@@ -80,6 +80,7 @@ function gameLoop() {
 
     moveBall();
     aiMovePaddle(); // Call AI movement function
+    aiMovePaddle2();
     
     ball.style.left = ballXPosition + 'px';
     ball.style.top = ballYPosition + 'px';
@@ -144,4 +145,22 @@ function aiMovePaddle() {
     // Prevent the AI paddle from moving out of the game area
     paddle2YPosition = Math.max(Math.min(paddle2YPosition, 320), 0);
     paddle2.style.top = paddle2YPosition + 'px';
+}
+
+function aiMovePaddle2() {
+    if (isPaused) {
+        return;
+    } // AI should not move if the game is paused
+    
+    // Simple AI for moving the paddle
+    // This makes the AI paddle follow the ball, but not perfectly for a bit of fairness
+    if (ballYPosition < paddle1YPosition + 35) { // The AI paddle moves up if the ball is in the upper half
+        paddle1YPosition -= paddleSpeed * 0.5; // Adjust speed for difficulty (slower than human player)
+    } else if (ballYPosition > paddle1YPosition + 45) { // The AI paddle moves down if the ball is in the lower half
+        paddle1YPosition += paddleSpeed * 0.5; // Adjust speed for difficulty
+    }
+
+    // Prevent the AI paddle from moving out of the game area
+    paddle1YPosition = Math.max(Math.min(paddle1YPosition, 320), 0);
+    paddle1.style.top = paddle1YPosition + 'px';
 }
